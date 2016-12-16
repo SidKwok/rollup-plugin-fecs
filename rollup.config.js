@@ -5,7 +5,7 @@ const pkg = require('./package.json');
 export default {
 	entry: 'src/index.js',
 	plugins: [
-		buble()
+		buble({exclude: 'node_modules/**'})
 	],
 	external: Object.keys(pkg.dependencies).concat(['path']),
 	sourceMap: 'inline',
