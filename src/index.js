@@ -11,7 +11,7 @@ export default function fecs(options = {}) {
         name: 'fecs',
         transform(code, id) {
             if (!filter(id)) return null;
-            let _options = f.getOptions();
+            let _options = Object.assign(options, f.getOptions());
             _options._[0] = id;
             f.check(_options, success => {
                 if (success) {
