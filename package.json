@@ -1,6 +1,6 @@
 {
   "name": "rollup-plugin-fecs",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Verify entry point and all imported files with fecs",
   "main": "dist/rollup-plugin-fecs.cjs.js",
   "module": "dist/rollup-plugin-fecs.es.js",
