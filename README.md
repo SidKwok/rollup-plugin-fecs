@@ -2,13 +2,11 @@
 Rollup plugin to verify entry point and all imported files with fecs.
 
 ## Install
----
 ```
 npm install rollup-plugin-fecs
 ```
 
 ## Usage
----
 ```
 import { rollup } from 'rollup';
 import fecs from 'rollup-plugin-fecs';
@@ -22,5 +20,4 @@ rollup({
 ```
 
 ## Options
----
 See more options here [fecs](https://github.com/ecomfe/fecs/).
